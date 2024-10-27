@@ -1,0 +1,1 @@
+# Python module for scaling and trailing stops

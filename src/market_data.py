@@ -1,0 +1,1 @@
+# Module to handle data input from MQL5
