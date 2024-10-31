@@ -1,1 +1,19 @@
 // Bot settings, including risk parameters
+{
+    "data_source": "websocket",
+    "trading_symbols": ["EURUSD", "BTCUSD", "Volatility 100"],
+    "tmeframe": "1h",
+    "risk_management": {
+        "risk_percent_per_trade": 1,
+        "max_drawdown_percent": 10,
+        "stop_loss": 0.0020,
+        "take_profit": 0.0040
+    },
+    "strategy":{
+        "moving_average_period": 20,
+        "rsi_threshold": 30
+    },
+    "log_level": "INFO",
+    "enable_backtesting": true,
+    "live_trading": false
+}
